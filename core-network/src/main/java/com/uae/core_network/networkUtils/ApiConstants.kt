@@ -1,0 +1,202 @@
+package com.uae.core_network.networkUtils
+
+object ApiConstants {
+
+    const val endDate: String = "endDate"
+    const val fromDate: String = "fromDate"
+    const val startDate: String = "startDate"
+    const val month: String = "month"
+    const val folderName: String = "folderName"
+    const val isOnline: String = "isOnline"
+    const val providerToken: String = "providerToken"
+    const val type: String = "type"
+    const val text: String = "folderName"
+    const val period: String = "period"
+    const val coinPackageId: String = "coinPackageId"
+    const val year: String = "year"
+    const val filter: String = "filter"
+    const val filterType: String = "filterType"
+    const val astrologerId: String = "astrologerId"
+    const val role: String = "role"
+    const val channelName: String = "channelName"
+    const val scheme = "https"
+    const val host = "www.api.wap-deepak.com"
+
+    //    const val port = 7436
+    const val pathSegment1 = "api"
+    const val pathSegment2 = "v1"
+
+    const val AUTH_TOKEN = "Authorization"
+    const val DEVICE_TYPE = "deviceType"
+    const val DEVICE_ID = "deviceId"
+    const val APP_VERSION = "appversion"
+
+    const val PAGINATION_DELAY = 1500L
+    const val SEARCH_DELAY = 900L
+
+    //API WRITE AND READ TIME OUT
+    const val WRITE_TIME = 15L
+    const val READ_TIME = 15L
+    const val CONNECTION_TIME = 15L
+
+    //ZODIAQ_API WRITE AND READ TIME OUT
+    const val ZODIAQ_APIS_WRITE_TIME = 150L
+    const val ZODIAQ_APIS_READ_TIME = 150L
+    const val ZODIAQ_APIS_CONNECTION_TIME = 150L
+
+
+    const val auth_path = "auth"
+    const val user_path = "users"
+    const val follow_path = "follow"
+    const val friend_path = "friend"
+    const val feeds_path = "feeds"
+    const val chat_path = "chat"
+
+    const val value = "value"
+    const val fcmToken = "fcmToken"
+    const val key = "key"
+    const val deviceType = "deviceType"
+
+    const val isSortByRating = "isSortByRating"
+    const val isSortByGender = "isSortByGender"
+    const val gender = "gender"
+    const val isSortByCity = "isSortByCity"
+    const val city = "city"
+    const val isSortByRatings = "isSortByRatings"
+    const val minRating = "minRating"
+    const val maxRating = "maxRating"
+    const val ratings = "ratings"
+    const val isSortByAge = "isSortByAge"
+    const val minAge = "minAge"
+    const val maxAge = "maxAge"
+    const val isSortByExperience = "isSortByExperience"
+    const val minExpereince = "minExperience"
+    const val maxExperience = "maxExperience"
+    const val isSortByExpertise = "isSortByExpertise"
+    const val expertise = "expertise"
+    const val isSortByLanguage = "isSortByLanguage"
+    const val language = "language"
+    const val lang = "lang"
+    const val lat = "lat"
+    const val long = "long"
+    const val RefToken = "ref_token"
+    const val sortBy = "sortBy"
+
+
+    //Api Keys
+    const val id = "id"
+    const val viewedUserId = "viewedUserId"
+    const val reviewType = "reviewType"
+    const val amount = "amount"
+    const val couponCode = "couponCode"
+    const val topic = "topic"
+    const val email = "email"
+    const val password = "password"
+    const val passcode = "passCode"
+    const val phoneOtp = "phoneOtp"
+    const val emailOtp = "emailOtp"
+    const val otp = "otp"
+    const val referralCode = "referralCode"
+    const val referralCodeStatus = "referralCodeStatus"
+    const val country = "country"
+    const val countryCode = "countryCode"
+    const val stateCode = "stateCode"
+    const val idType = "idType"
+    const val CHANNEL_ID = "channelId"
+    const val variantId = "variantId"
+    const val userId = "user_id"
+    const val blockUserId = "block_user_id"
+    const val feedId = "feed_id"
+    const val feedPage = "feed_page"
+    const val commentId = "comment_id"
+    const val search = "search"
+    const val range = "range"
+    const val visitorID = "visitorID"
+    const val active = "active"
+    const val tab = "tab"
+    const val booking_type = "booking_type"
+    const val from_date = "from_date"
+    const val to_date = "to_date"
+    const val productSlug = "product_slug"
+    const val sourceType = "source_type"
+    const val chatId = "chatId"
+    const val page = "page"
+
+
+    const val limit = "limit"
+    const val roleType = "roleType"
+    const val action = "action"
+    const val bookingStatus = "bookingStatus"
+    const val feedLimit = "feed_limit"
+    const val contentId = "content_id"
+    const val parentId = "parent_id"
+    const val category = "category"
+    const val cancelReason = "cancelReason"
+    const val min_age = "min_age"
+    const val max_age = "max_age"
+    const val interests = "interests"
+    const val status = "status"
+    const val state = "state"
+    const val contentType = "content_type"
+    const val categoryId = "categoryId"
+    const val subCategoryId = "sub_category_id"
+    const val user = "user"
+    const val oldPassword = "oldPassword"
+    const val newPassword = "newPassword"
+    const val followingId = "following_id"
+    const val search_area = "search_area"
+    const val property_type = "property_type"
+    const val property_slug = "property_slug"
+    const val booking_slug = "booking_slug"
+    const val hotel_id = "hotel_id"
+    const val bedrooms = "bedrooms"
+    const val bathrooms = "bathrooms"
+    const val min_price = "min_price"
+    const val max_price = "max_price"
+    const val rating = "rating"
+    const val holiday_package_slug = "holiday_package_slug"
+    const val holiday_package_id = "holiday_package_id"
+    const val bodyPart = "bodyPart"
+
+    const val ASTROLOGY_API_KEY_HEADER = "x-astrologyapi-key"
+
+
+}
+
+object Headers{
+    const val authorization = "Authorization"
+}
+
+object ChartsApiConstants {
+    val imageType: String = "image_type"
+    val chartType: String = "chartType"
+    val lineColor: String= "lineColor"
+    val signColor: String= "signColor"
+    val planetColor: String= "planetColor"
+    const val dob = "dob"
+    const val name = "name"
+    const val tob = "tob"
+    const val style = "style"
+    const val fontsize = "font_size"
+    const val fontstyle = "font_style"
+    const val lat = "lat"
+    const val lon = "lon"
+    const val tz = "tz"
+    const val time = "time"
+    const val lang = "lang"
+    const val format = "format"
+    const val div = "div"
+    const val stroke = "stroke"
+    const val transit_date = "transit_date"
+    const val date = "date"
+    const val color = "color"
+    const val colorful_planets = "colorful_planets"
+    const val show_degree = "show_degree"
+    const val size = "size"
+    const val api_key = "api_key"
+    const val mahaDasha = "md"
+    const val antarDasha = "ad"
+    const val pratyantarDasha = "pd"
+    const val planet = "planet"
+    const val chartID = "chart_id"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core-agora" />
+            <option value="$PROJECT_DIR$/core-auth" />
+            <option value="$PROJECT_DIR$/core-common" />
+            <option value="$PROJECT_DIR$/core-earning" />
+            <option value="$PROJECT_DIR$/core-fcm" />
+            <option value="$PROJECT_DIR$/core-navigation" />
+            <option value="$PROJECT_DIR$/core-network" />
+            <option value="$PROJECT_DIR$/core-socket" />
+            <option value="$PROJECT_DIR$/core-story" />
+            <option value="$PROJECT_DIR$/core-ui" />
+            <option value="$PROJECT_DIR$/feature-auth-host" />
+            <option value="$PROJECT_DIR$/feature-auth-user" />
+            <option value="$PROJECT_DIR$/feature-block" />
+            <option value="$PROJECT_DIR$/feature-bottom-nav" />
+            <option value="$PROJECT_DIR$/feature-call" />
+            <option value="$PROJECT_DIR$/feature-change-password" />
+            <option value="$PROJECT_DIR$/feature-chat" />
+            <option value="$PROJECT_DIR$/feature-cms" />
+            <option value="$PROJECT_DIR$/feature-gift" />
+            <option value="$PROJECT_DIR$/feature-help-support" />
+            <option value="$PROJECT_DIR$/feature-home" />
+            <option value="$PROJECT_DIR$/feature-home-host" />
+            <option value="$PROJECT_DIR$/feature-leaderboard" />
+            <option value="$PROJECT_DIR$/feature-notification" />
+            <option value="$PROJECT_DIR$/feature-onboarding" />
+            <option value="$PROJECT_DIR$/feature-referral" />
+            <option value="$PROJECT_DIR$/feature-review" />
+            <option value="$PROJECT_DIR$/feature-splash" />
+            <option value="$PROJECT_DIR$/feature-story" />
+            <option value="$PROJECT_DIR$/feature-wallet" />
+            <option value="$PROJECT_DIR$/feature-withdraw" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

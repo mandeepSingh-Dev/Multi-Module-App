@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "965317608302",
+    "project_id": "kahoji-c267f",
+    "storage_bucket": "kahoji-c267f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965317608302:android:add5f78a28ba5bd3cfb77f",
+        "android_client_info": {
+          "package_name": "com.app.kahoji"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASFMg5wirxgJzNZvqzeLZDpreOr-f0LIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
